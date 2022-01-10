@@ -1,0 +1,5 @@
+ItemName_EN = {
+	ItemName_Carcraft.CarBatteryS4 = "Bosch S4 Car Battery",
+	ItemName_Carcraft.CarBatteryS5 = "Bosch S5 Car Battery",
+	ItemName_Carcraft.CarBatteryS6 = "Bosch S6 Car Battery",
+}

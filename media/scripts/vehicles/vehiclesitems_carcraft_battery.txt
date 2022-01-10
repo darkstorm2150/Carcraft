@@ -1,0 +1,60 @@
+module Carcraft
+{
+	imports
+    	{
+             Base,
+    	}
+	/************************Bosch S-Series Batteries************************/
+	item CarBatteryS4
+	{
+		DisplayCategory = VehicleMaintenance,
+        Weight	=	2.5,
+        Type	=	Drainable,
+        UseDelta	=	0.00001,
+        UseWhileEquipped	=	FALSE,
+        DisplayName	=	Bosch S4 Battery,
+        Icon	=	CarBatteryS4,
+        MetalValue = 1,
+        cantBeConsolided = TRUE,
+        VehicleType =   1,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 25,
+        MechanicsItem = TRUE,
+        WorldStaticModel = CarBatteryS4,
+	}
+	item CarBatteryS5
+	{
+		DisplayCategory = VehicleMaintenance,
+        Weight	=	3.0,
+        Type	=	Drainable,
+        UseDelta	=	0.00001,
+        UseWhileEquipped	=	FALSE,
+        DisplayName	=	Bosch S5 Battery,
+        Icon	=	CarBatteryS5,
+        MetalValue = 1,
+        cantBeConsolided = TRUE,
+        VehicleType =   1,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 25,
+        MechanicsItem = TRUE,
+        WorldStaticModel = CarBatteryS5,
+	}
+	item CarBatteryS6
+	{
+		DisplayCategory = VehicleMaintenance,
+        Weight	=	3.5,
+        Type	=	Drainable,
+        UseDelta	=	0.00001,
+        UseWhileEquipped	=	FALSE,
+        DisplayName	=	Bosch S6 Battery,
+        Icon	=	CarBatteryS6,
+        MetalValue = 1,
+        cantBeConsolided = TRUE,
+        VehicleType =   1,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 25,
+        MechanicsItem = TRUE,
+        WorldStaticModel = CarBatteryS6,
+	}
+	
+}

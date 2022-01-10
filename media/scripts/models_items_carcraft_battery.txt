@@ -1,0 +1,21 @@
+module Base
+{
+    model CarBatteryS4
+    {
+        mesh = WorldItems/CarBattery,
+		texture = WorldItems/CarBatteryS4,
+        scale = 0.4,
+    }
+	model CarBatteryS5
+    {
+        mesh = WorldItems/CarBattery,
+		texture = WorldItems/CarBatteryS5,
+        scale = 0.4,
+    }
+	model CarBatteryS6
+    {
+        mesh = WorldItems/CarBattery,
+		texture = WorldItems/CarBatteryS6,
+        scale = 0.4,
+    }
+}
